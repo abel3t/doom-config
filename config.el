@@ -19,3 +19,8 @@
       mouse-wheel-follow-mouse 't
       mouse-wheel-scroll-amount '(1 ((shift) . 1))
       )
+
+(map!
+ "s-k"          #'move-text-up
+ "s-j"          #'move-text-down
+ )
