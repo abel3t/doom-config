@@ -1,3 +1,7 @@
+(require 'loadhist)
+(file-dependents (feature-file 'cl))
+
+
 ;;;###autoload
 (defun abel3t/edit-zsh-configuration ()
   (interactive)
