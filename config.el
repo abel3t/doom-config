@@ -50,5 +50,5 @@
  :n     "is"            #'lsp-ui-doc-show
 
  ;; vterm
- :n     "vt"            #'+vterm/toggle
+ :n     "tt"            #'+vterm/toggle
  )
